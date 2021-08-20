@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const sendRequest = async () => {
-    const response = await fetch("api/post", {
+    const response = await fetch("/post", {
       method: 'POST',
       headers: {
         'content-type': 'application/json;charset=UTF-8'
